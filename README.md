@@ -4,13 +4,11 @@
 
 Masters of MQ is a turn based RPG combat simulation game written in Java created to deliver strategic gameplay inspired by classic RPG mechanics. In this text based battle system two teams will face off until one team has all its characters reach zero health points and at each turn characters can choose from actions such as attacking or defending with outcomes influenced by various stats, equipment, and random elements. The game features battle logs allowing players to follow the action making each turn both engaging and strategic.
 
----
 
 ## Problem Solved
 
 This project creates an accessible and immersive RPG experience through simple turn based combat mechanics. It demonstrates how game elements like health points, turn taking, and stat based outcomes can be implemented in Java to create an engaging console based game. By focusing on character interactions and random variations in outcomes the game creates a challenge for players while demonstrating core concepts of object-oriented programming.
 
----
 
 ## Program Structure
 
@@ -28,7 +26,6 @@ The project is organized into four main classes, each with a distinct role in th
 4. **`Team.java`**  
    Represents a team of characters managing team based logic like turn order and victory conditions it tracks each characters status ensures characters without health points cant act and checks for when a team is defeated.
 
----
 
 ## How to Run the Program
 
@@ -51,7 +48,6 @@ To set up and run Masters of MQ follow these simple steps:
    - After each action check the Battle Log output to see the results of your decisions and the impact on enemy characters.
    - Continue taking turns until one team is completely defeated.
 
----
 
 ### Example Gameplay
 
